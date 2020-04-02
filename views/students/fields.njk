@@ -1,0 +1,97 @@
+<div class="item">
+    <div>Avatar url</div>
+        <div>
+            <input 
+                type="url"
+                name="avatar_url"
+                placeholder="http://"
+                value = "{{student.avatar_url}}"
+                >               
+    </div>
+</div>
+
+
+<div class="item">
+    <div>Aluno</div>
+        <div>
+            <input 
+                type="text"
+                name="name"
+                placeholder="Nome do Aluno"
+                value="{{student.name}}"
+                >               
+    </div>
+</div>
+
+<div class="item">
+    <div>Email</div>
+        <div>
+            <input 
+                type="email"
+                name="email"                
+                value="{{student.email}}"
+                >               
+    </div>
+</div>
+
+<div class="item">
+    <div>Data De Nascimento</div>
+        <div>
+            <input
+                type="date"
+                name="birth"
+                value="{{student.birth}}"                   
+                >                
+        </div>
+</div>
+
+<div class="item">
+    <div>Ano Escolar</div>
+        <div>
+            <select name="select">
+                <option value="5º Ano Ensino Fundamental"
+                    {%if student.select == "5º Ano Ensino Fundamental"%}selected{%endif%}
+                    >5º Ano Ensino Fundamental</option>
+                <option value="6º Ano Ensino Fundamental"
+                    {%if student.select == "6º Ano Ensino Fundamental"%}selected{%endif%}
+                    >6º Ano Ensino Fundamental</option>
+                <option value="7º Ano Ensino Fundamental"
+                    {%if student.select == "7º Ano Ensino Fundamental"%}selected{%endif%}
+                    >7º Ano Ensino Fundamental</option>
+                <option value ="8º Ano Ensino Fundamental"
+                    {%if student.select == "8º Ano Ensino Fundamental"%}selected{%endif%}
+                    >8º Ano Ensino Fundamental</option>
+                <option value ="9º Ano Ensino Fundamental"
+                    {%if student.select == "9º Ano Ensino Fundamental"%}selected{%endif%}
+                    >9º Ano Ensino Fundamental</option>
+                <option value ="1º Ano Ensino Médio"
+                    {%if student.select == "1º Ano Ensino Médio"%}selected{%endif%}
+                    >1º Ano Ensino Médio</option>
+                <option value ="2º Ano Ensino Médio"
+                    {%if student.select == "2º Ano Ensino Médio"%}selected{%endif%}
+                    >2º Ano Ensino Médio</option>
+                <option value ="3º Ano Ensino Médio"
+                    {%if student.select == "3º Ano Ensino Médio"%}selected{%endif%}
+                    >3º Ano Ensino Médio</option>
+            </select>                
+	    </div>
+</div>
+
+<div class="item">
+    <div>Carga Horária Semanal</div>
+        <div>
+            <input 
+                type="number"
+                name="carga"
+                placeholder="Nome do Aluno"
+                value="{{student.carga}}"
+                >               
+    </div>
+</div>
+
+
+
+           
+            
+            
+            

@@ -1,0 +1,53 @@
+{
+  "students": [
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1567168539593-59673ababaae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+      "name": "vinicius",
+      "email": "vinicius@yahoo.com",
+      "birth": 651974400000,
+      "select": "8º Ano Ensino Fundamental",
+      "carga": "6",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1503676382389-4809596d5290?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80",
+      "name": "monica",
+      "email": "monisantos34@hotmail.com",
+      "birth": 51494400000,
+      "select": "3º Ano Ensino Médio",
+      "carga": "8"
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+      "name": "Joaquim",
+      "email": "viny_m_r_F_santos@hotmail.com",
+      "birth": -27080352000000,
+      "select": "7º Ano Ensino Fundamental",
+      "carga": "4"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1556302132-40bb13638500?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80",
+      "name": "Albert Einstein",
+      "birth": -620006400000,
+      "select": "Ensino Medio Completo",
+      "classe": "D",
+      "acting": "matematica,fisica",
+      "created_at": 1584656133194
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80",
+      "name": "Juvenal",
+      "birth": -449020800000,
+      "select": "Superior Completo",
+      "classe": "D",
+      "acting": "biologia,quimica",
+      "created_at": 1584656158077
+    }
+  ]
+}
